@@ -1,0 +1,21 @@
+{
+  "name": "mywebproject",
+  "version": "1.0.0",
+  "description": "Personal website, backend Node, frontend react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Heng",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongodb": "^3.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
