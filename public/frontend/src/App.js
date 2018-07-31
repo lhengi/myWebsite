@@ -234,7 +234,7 @@ class App extends Component {
           <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
             <div className="my-auto">
               <h2 className="mb-5">Interests</h2>
-              <p> Other than being web Development and Embeded System Development. I'm also looking 
+              <p> Other than web Development and Embeded System Development. I'm also looking 
                   forward to learn more new technologies. Such as, iOS and Android Development, and also
                   Mechine Learning, AI, High Performance Computing 
               </p>
