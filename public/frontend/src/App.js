@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import 'devicon';
 
 class App extends Component {
   render() {
@@ -35,7 +36,7 @@ class App extends Component {
                 <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll-trigger" href="#awards">Awards</a>
+                <a className="nav-link js-scroll-trigger" href="#projects">Projects</a>
               </li>
             </ul>
           </div>
@@ -79,50 +80,54 @@ class App extends Component {
 
               <div className="resume-item d-flex flex-column flex-md-row mb-5">
                 <div className="resume-content mr-auto">
-                  <h3 className="mb-0">Senior Web Developer</h3>
-                  <div className="subheading mb-3">Intelitec Solutions</div>
-                  <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                  <h3 className="mb-0">Software Engineering Intern</h3>
+                  <div className="subheading mb-3">Chamberlain Group, Middleware Team</div>
+                  <ul>
+                    <li> Built and design a Scalable End to End IoT platform for Chamberlain Group Devices </li>
+                    <li> Gather the informations from the product owners and create an Agile Project Plan</li>
+                    <li> Design the architecture of the platform</li>
+                    <li> Served as Scrum Master</li>
+                    <li> Team management and schedule Scrum meetings</li>
+                    <li> Design database to fit the need of the application</li>
+                    <li> Message Queuing/Routing</li>
+                    <li> Experience with Azure Cloud</li>
+                      <ul>
+                        <li> Azure App Service</li>
+                        <li> Azure IoT Hub </li>
+                        <li> Azure Serverless Function </li>
+                        <li> CosmosDB </li>
+                      </ul>
+                    <li> Full Stack Development</li>
+                      <ul>
+                        <li> Frontend: React.js</li>
+                        <li> Backend: Node.js, Python</li>
+                      </ul>
+                  </ul>
+
                 </div>
                 <div className="resume-date text-md-right">
-                  <span className="text-primary">March 2013 - Present</span>
+                  <span className="text-primary">May 2018 - August 2018</span>
                 </div>
               </div>
-
-              <div className="resume-item d-flex flex-column flex-md-row mb-5">
-                <div className="resume-content mr-auto">
-                  <h3 className="mb-0">Web Developer</h3>
-                  <div className="subheading mb-3">Intelitec Solutions</div>
-                  <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
-                </div>
-                <div className="resume-date text-md-right">
-                  <span className="text-primary">December 2011 - March 2013</span>
-                </div>
-              </div>
-
-              <div className="resume-item d-flex flex-column flex-md-row mb-5">
-                <div className="resume-content mr-auto">
-                  <h3 className="mb-0">Junior Web Designer</h3>
-                  <div className="subheading mb-3">Shout! Media Productions</div>
-                  <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
-                </div>
-                <div className="resume-date text-md-right">
-                  <span className="text-primary">July 2010 - December 2011</span>
-                </div>
-              </div>
-
-              <div className="resume-item d-flex flex-column flex-md-row">
-                <div className="resume-content mr-auto">
-                  <h3 className="mb-0">Web Design Intern</h3>
-                  <div className="subheading mb-3">Shout! Media Productions</div>
-                  <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
-                </div>
-                <div className="resume-date text-md-right">
-                  <span className="text-primary">September 2008 - June 2010</span>
-                </div>
-              </div>
-
             </div>
 
+            <div className="resume-item d-flex flex-column flex-md-row mb-5">
+                <div className="resume-content mr-auto">
+                  <h3 className="mb-0">Software Engineering Intern</h3>
+                  <div className="subheading mb-3">College of Engineering, UIC</div>
+                  <ul>
+                    <li> Developed web application to keeps track of room & equipment access</li>
+                    <li> Developed web application to allows employee to record their hours</li>
+                    <li> Frontend: jQuery, Bootstrap</li>
+                    <li> Backend: PHP</li>
+                    <li> Designed SQL database to fit the need of the application</li>
+                  </ul>
+
+                </div>
+                <div className="resume-date text-md-right">
+                  <span className="text-primary">June 2017 - Present</span>
+                </div>
+              </div>
           </section>
 
           <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
@@ -131,24 +136,23 @@ class App extends Component {
 
               <div className="resume-item d-flex flex-column flex-md-row mb-5">
                 <div className="resume-content mr-auto">
-                  <h3 className="mb-0">University of Colorado Boulder</h3>
-                  <div className="subheading mb-3">Bachelor of Science</div>
-                  <div>Computer Science - Web Development Track</div>
-                  <p>GPA: 3.23</p>
+                  <h3 className="mb-0">University of Illinois at Chicago</h3>
+                  <div className="subheading mb-3">Bachelor of Science in Computer Science</div>
+                  <p>GPA: 4.00</p>
                 </div>
                 <div className="resume-date text-md-right">
-                  <span className="text-primary">August 2006 - May 2010</span>
+                  <span className="text-primary">August 2016 - December 2019</span>
                 </div>
               </div>
 
               <div className="resume-item d-flex flex-column flex-md-row">
                 <div className="resume-content mr-auto">
-                  <h3 className="mb-0">James Buchanan High School</h3>
-                  <div className="subheading mb-3">Technology Magnet Program</div>
-                  <p>GPA: 3.56</p>
+                  <h3 className="mb-0">Naperville North High School</h3>
+                  <br/>
+                  <p>GPA: 3.87</p>
                 </div>
                 <div className="resume-date text-md-right">
-                  <span className="text-primary">August 2002 - May 2006</span>
+                  <span className="text-primary">August 2012 - May 2016</span>
                 </div>
               </div>
 
@@ -161,80 +165,109 @@ class App extends Component {
 
               <div className="subheading mb-3">Programming Languages &amp; Tools</div>
               <ul className="list-inline list-icons">
-
                 <li className="list-inline-item">
-                  <i className="devicons devicons-java"></i>
+                  <i class="devicon-c-plain"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-react"></i>
+                  <i class="devicon-cplusplus-plain"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-mysql"></i>
+                  <i class="devicon-java-plain-wordmark"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-python"></i>
+                  <i className="devicon-python-plain-wordmark"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-nodejs"></i>
+                  <i class="devicon-csharp-plain"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-ubuntu"></i>
+                  <i className="devicon-javascript-plain"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-mongodb"></i>
+                  <i className="devicon-nodejs-plain-wordmark"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-c-plain"></i>
-                </li>
-              
-
-                <li className="list-inline-item">
-                  <i className="devicons devicons-html5"></i>
+                  <i className="devicon-express-plain-wordmark"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-css3"></i>
+                  <i className="devicon-react-plain-wordmark"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-javascript"></i>
+                  <i className="devicon-mongodb-plain-wordmark"></i>
                 </li>
                 <li className="list-inline-item">
-                  <i className="devicons devicons-wordpress"></i>
+                  <i className="devicon-mysql-plain"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i class="devicon-git-plain"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i className="devicon-ubuntu-plain"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i class="devicon-linux-plain"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i class="devicon-html5-plain-wordmark"></i>
+                </li>
+                <li className="list-inline-item">
+                  <i class="devicon-css3-plain-wordmark"></i>
                 </li>
               </ul>
+              <div className="subheading mb-3">Prior Experience With</div>
+              <ul className="list-inline list-icons">
+                <li className="list-inline-item">
+                  <i className="devicon-php-plain"/>
 
-              <div className="subheading mb-3">Workflow</div>
-              <ul className="fa-ul mb-0">
+                </li>
+
+              </ul>
+              {/*<ul className="fa-ul mb-0">
                 <li>
-                  <i className="fa-li fa fa-check"></i>
-                  Mobile-First, Responsive Design</li>
-                <li>
-                  <i className="fa-li fa fa-check"></i>
-                  Cross Browser Testing &amp; Debugging</li>
-                <li>
-                  <i className="fa-li fa fa-check"></i>
-                  Cross Functional Teams</li>
-                <li>
+                  
                   <i className="fa-li fa fa-check"></i>
                   Agile Development &amp; Scrum</li>
-              </ul>
-            </div>
+              </ul>*/}
+              </div>
           </section>
 
           <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
             <div className="my-auto">
               <h2 className="mb-5">Interests</h2>
-              <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-              <p className="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+              <p> Other than being web Development and Embeded System Development. I'm also looking 
+                  forward to learn more new technologies. Such as, iOS and Android Development, and also
+                  Mechine Learning, AI, High Performance Computing 
+              </p>
             </div>
           </section>
 
-          <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+          <section className="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
             <div className="my-auto">
-              <h2 className="mb-5">Awards &amp; Certifications</h2>
+              <h2 className="mb-5">Projects</h2>
               <ul className="fa-ul mb-0">
                 <li>
                   <i className="fa-li fa fa-trophy text-warning"></i>
-                  Google Analytics Certified Developer</li>
+                  First Place in <a href="https://builtworlds.com/news/results-heres-won-builtworlds-3rd-annual-hackathon/">BuiltWorlds hackathon, mHub</a></li>
+                  <ul>
+                    <li> Won the maker challenge by creating iPot (a LoRa WAN enabled sensor pack for portable toilets)</li>
+                    <li> Used the sensor pack to measure the fill level and tip state of a portable toilet</li>
+                    <li> Data is then sent to the server via LoRa Network</li>
+                    <li> iPot can help the operator company save money by optimizing the most efficient service routes</li>
+                  </ul>
+                  <br/>
+                  <br/>
+
+
+                  <li> Building Automation Project Using Arduino WiFi Mesh Network</li>
+                  <ul>
+                    <li> Work with the team to build a system of WiFi Mesh Network enabled home sensor packs for older buildings</li>
+                    <li> Prototyped smart smoke detector, boiler controller, doorbell, and a user console.</li>
+                    <li> Use WiFi Mesh Network to pass JSON objects around to communicate between different units</li>
+                    <li> Specifically worked on user console, which communicates with all other sensors</li>
+                  </ul>
+
+                  
+                
               </ul>
             </div>
           </section>
