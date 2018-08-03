@@ -1,0 +1,13 @@
+Server start on port 80
+Server start on port 80
+TypeError: path must be absolute or specify root to res.sendFile
+    at ServerResponse.sendFile (/home/heng/myWebsite/node_modules/express/lib/response.js:421:11)
+    at /home/heng/myWebsite/app.js:17:9
+    at Layer.handle [as handle_request] (/home/heng/myWebsite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/heng/myWebsite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/home/heng/myWebsite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/heng/myWebsite/node_modules/express/lib/router/layer.js:95:5)
+    at /home/heng/myWebsite/node_modules/express/lib/router/index.js:281:22
+    at Function.process_params (/home/heng/myWebsite/node_modules/express/lib/router/index.js:335:12)
+    at next (/home/heng/myWebsite/node_modules/express/lib/router/index.js:275:10)
+    at SendStream.error (/home/heng/myWebsite/node_modules/serve-static/index.js:121:7)

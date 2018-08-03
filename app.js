@@ -1,7 +1,7 @@
 
 const express = require('express');
 const app = express();
-const port = 5000;
+const port = 80;
 const path = require('path');
 const bodyParser = require('body-parser');
 const router = express.Router();
@@ -9,11 +9,12 @@ const router = express.Router();
 const apiRoute = require('./controllers/requestHandler');
 
 
+
 app.use('/api',apiRoute);
-app.use(express.static(__dirname + "/public/frontend/public"));
+app.use(express.static(__dirname + "/public/frontend/build"));
 app.get('/',function(req,res){
 
-    res.sendFile('./public/frontend/public/index.html');
+    res.sendFile('./public/frontend/build/index.html');
 });
 
 
