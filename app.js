@@ -11,10 +11,10 @@ const apiRoute = require('./controllers/requestHandler');
 
 
 app.use('/api',apiRoute);
-app.use(express.static(__dirname + "/public/frontend/build"));
+app.use(express.static(__dirname + "/public/build"));
 app.get('/',function(req,res){
 
-    res.sendFile('./public/frontend/build/index.html');
+    res.sendFile('./public/build/index.html');
 });
 
 

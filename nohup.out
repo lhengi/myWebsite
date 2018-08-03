@@ -11,3 +11,4 @@ TypeError: path must be absolute or specify root to res.sendFile
     at Function.process_params (/home/heng/myWebsite/node_modules/express/lib/router/index.js:335:12)
     at next (/home/heng/myWebsite/node_modules/express/lib/router/index.js:275:10)
     at SendStream.error (/home/heng/myWebsite/node_modules/serve-static/index.js:121:7)
+Server start on port 80
