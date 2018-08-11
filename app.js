@@ -1,6 +1,7 @@
-
+const https = require('https');
 const express = require('express');
 const app = express();
+const httpApp = express();
 const port = 8080;
 //const httpsPort = 443;
 const path = require('path');
@@ -22,9 +23,20 @@ app.get('/',function(req,res){
     res.sendFile('./public/build/index.html');
 });
 
+httpApp.get('*', function(req,res){
+
+    res.redirect('https://'+req.headers.host + req.url);
+});
+
+httpApp.listen(80,function(){
+    console.log("http server start on 80");
+});
+
+
+
 
 app.listen(port, function(){
     console.log(`Server start on port ${port}`);
 }); 
 
-httpsOptions.creatServer(httpsOptions,app).listen(443);
+https.createServer(httpsOptions,app).listen(443);
