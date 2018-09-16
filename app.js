@@ -25,13 +25,13 @@ app.get('/',function(req,res){
     res.sendFile('./public/build/index.html');
     var client_ip = res.connection.remoteAddress || req.headers['x-forwarded-for'];
     var timeOfVist = new Date();
-    
+   /* 
     MongoClient.connect(url, function(err,db){
 
 	var collection = db.collection('clientStats');
 	collection.update({'ip':client_ip},{{$inc:{numberOfVisit:1}},{$push:{timeStamp:timeOfVisit.toLocaleString()}} });
 
-    });
+    });*/
 
 });
 

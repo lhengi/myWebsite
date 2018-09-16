@@ -17,7 +17,7 @@ class About extends Component{
                         <div className="subheading mb-5">Chicago IL · (773) 226-7887 ·
                         <a href="mailto:lhengi888@gmail.com">lhengi888@gmail.com</a>
                         </div>
-                        <p className="mb-5">My elevator pitch</p>
+                        <p className="mb-5"></p>
                         <ul className="list-inline list-social-icons mb-0">
                         <li className="list-inline-item">
                             <a href="https://www.linkedin.com/in/heng-li">
