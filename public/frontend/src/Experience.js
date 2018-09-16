@@ -15,25 +15,23 @@ class Experience extends Component{
                             <h3 className="mb-0">Software Engineering Intern</h3>
                             <div className="subheading mb-3">Chamberlain Group, Middleware Team</div>
                             <ul>
-                            <li> Built and design a Scalable End to End IoT platform for Chamberlain Group Devices </li>
-                            <li> Gather the informations from the product owners and create an Agile Project Plan</li>
-                            <li> Design the architecture of the platform</li>
-                            <li> Served as Scrum Master</li>
-                            <li> Team management and schedule Scrum meetings</li>
-                            <li> Design database to fit the need of the application</li>
-                            <li> Message Queuing/Routing</li>
-                            <li> Experience with Azure Cloud</li>
-                                <ul>
-                                <li> Azure App Service</li>
-                                <li> Azure IoT Hub </li>
-                                <li> Azure Serverless Function </li>
-                                <li> CosmosDB </li>
-                                </ul>
-                            <li> Full Stack Development</li>
-                                <ul>
-                                <li> Frontend: React.js</li>
-                                <li> Backend: Node.js, Python</li>
-                                </ul>
+                                <li> Worked in an agile team to build and design a scalable proof of concept End to End IoT platform for    
+                                Chamberlain Group Devices</li>
+                                <li> For two weeks served as Scrum Master</li>
+                                    <ul>
+                                        <li>Communicate with product manager to keep the project on track and make plans for the next sprint</li>
+                                        <li>Scheduled team meetings and project management</li>
+                                        <li>Used Jira for time management and to assign tasks to team members</li>
+                                    </ul>
+                                <li> Designed and built Web App for the IoT platform and deployed onto Azure App Service</li>
+                                    <ul>
+                                        <li>Designed and built the Frontend with React.js and jQuery</li>
+                                        <li>Built HTTP REST API backend using Node.js and Python</li>
+                                    </ul>
+                                <li> Designed a NoSQL database and deployed it on Cosmos DB</li>
+                                <li> Set up MQTT/AMQP message brokers for message queuing and routing</li>
+                                <li> Set up Azure Virtual Machines and Serverless functions</li>
+                                <li> Used git and Bitbucket for version control and code integration</li>
                             </ul>
 
                         </div>
@@ -48,11 +46,10 @@ class Experience extends Component{
                             <h3 className="mb-0">Software Engineering Intern</h3>
                             <div className="subheading mb-3">College of Engineering, UIC</div>
                             <ul>
-                            <li> Developed web application to keeps track of room & equipment access</li>
-                            <li> Developed web application to allows employee to record their hours</li>
-                            <li> Frontend: jQuery, Bootstrap</li>
-                            <li> Backend: PHP</li>
-                            <li> Designed SQL database to fit the need of the application</li>
+                                <li> Develop internal tools for College of Engineering staffs and students</li>
+                                <li> Developed web application to keeps track of each staff members room & equipment access</li>
+                                <li> Developed web application to allows employees to record their working hours</li>
+                                <li> Refactored and migrated from PHP to Node.js for Ph.D. evaluation Web App leading to a smoother experience for Ph.D. students to submit their thesis</li>
                             </ul>
 
                         </div>

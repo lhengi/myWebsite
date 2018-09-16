@@ -15,10 +15,10 @@ class Project extends Component{
                         <i className="fa-li fa fa-trophy text-warning"></i>
                         First Place in <a href="https://builtworlds.com/news/results-heres-won-builtworlds-3rd-annual-hackathon/">BuiltWorlds hackathon, mHub</a></li>
                         <ul>
-                            <li> Won the maker challenge by creating iPot (a LoRa WAN enabled sensor pack for portable toilets)</li>
-                            <li> Used the sensor pack to measure the fill level and tip state of a portable toilet</li>
-                            <li> Data is then sent to the server via LoRa Network</li>
-                            <li> iPot can help the operator company save money by optimizing the most efficient service routes</li>
+                            <li> Won first place out of 20+ teams by creating iPot (a LoRa WAN enabled sensor pack for portable toilets)</li>
+                            <li> iPot collects data about the portable toilet and sends it to the cloud server via LoRa Network</li>
+                            <li> Collected data can be used to optimize the best and most efficient service routes</li>
+                            <li> This can enable a better customer experience and could potentially save the industry operation and maintenance cost</li>
                         </ul>
                         <br/>
                         <br/>
