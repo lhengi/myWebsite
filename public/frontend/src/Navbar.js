@@ -9,7 +9,7 @@ class Navbar extends Component{
         return(
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
                 <a className="navbar-brand js-scroll-trigger" href="#page-top">
-                    <span className="d-block d-lg-none">My Personal Website</span>
+                    <span className="d-block d-lg-none">  </span>
                     <span className="d-none d-lg-block">
                     <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""/>
                     </span>
@@ -32,7 +32,7 @@ class Navbar extends Component{
                         <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                        <a className="nav-link js-scroll-trigger" href="#interests">Courses</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link js-scroll-trigger" href="#projects">Projects</a>

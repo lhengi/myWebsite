@@ -4,7 +4,7 @@ import About from './About.js'
 import Experience from './Experience.js';
 import Education from './Education.js';
 import Skills from './Skills.js';
-import Interest from './Interest.js';
+import Courses from './Courses.js';
 import Project from './Project.js';
 
 class Content extends Component{
@@ -17,7 +17,7 @@ class Content extends Component{
                 <Experience />
                 <Education />
                 <Skills />
-                <Interest />
+                <Courses />
                 <Project />
 
 
